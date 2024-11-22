@@ -824,12 +824,6 @@ def random_animal():
     return random.choice(animals)
 
 
-def random_color():
-    from cairosvg.colors import COLORS
-
-    return random.choice(list(COLORS.keys()))
-
-
 adjectives = [
     "adaptable",
     "adventurous",

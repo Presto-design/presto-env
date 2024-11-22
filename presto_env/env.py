@@ -32,7 +32,7 @@ class PrestoEnv:
             return Path("./")
         else:
             if PrestoEnv.PRESTO_RUNS in os.environ:
-                return Path(os.environ(PrestoEnv.PRESTO_RUNS)) / project / run_id
+                return Path(os.environ[PrestoEnv.PRESTO_RUNS]) / project / run_id
             else:
                 return Path("./runs") / project / run_id
 

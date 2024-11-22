@@ -1,4 +1,4 @@
-import datetime
+from datetime import datetime
 
 from presto_env.random import random_animal, random_short_adjective
 
