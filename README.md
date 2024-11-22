@@ -32,8 +32,8 @@ Presto will try to use the following environment variables, and fallback if they
 ```python
 from presto_env import ModalEnv
 from presto_env.run import generate_run_id
-run_dir = ModalEnv.get_run_folder("ppo_himalaya", generate_run_id())
+run_dir = ModalEnv.run_folder("ppo_himalaya", generate_run_id())
 
-temp_dir = ModalEnv.get_temp_folder()
+temp_dir = ModalEnv.create_temp_folder()
 
 ```
