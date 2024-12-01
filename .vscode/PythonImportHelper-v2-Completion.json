@@ -1,0 +1,536 @@
+[
+    {
+        "label": "runpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "runpy",
+        "description": "runpy",
+        "detail": "runpy",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "IS_MODAL_REMOTE",
+        "importPath": "presto_env.modal",
+        "description": "presto_env.modal",
+        "isExtraImport": true,
+        "detail": "presto_env.modal",
+        "documentation": {}
+    },
+    {
+        "label": "get_modal_gpu_price_per_hour",
+        "importPath": "presto_env.modal",
+        "description": "presto_env.modal",
+        "isExtraImport": true,
+        "detail": "presto_env.modal",
+        "documentation": {}
+    },
+    {
+        "label": "MODAL_GPU_PER_HOUR_PRICE",
+        "importPath": "presto_env.modal",
+        "description": "presto_env.modal",
+        "isExtraImport": true,
+        "detail": "presto_env.modal",
+        "documentation": {}
+    },
+    {
+        "label": "MODAL_GPU_PER_HOUR_PRICE",
+        "importPath": "presto_env.modal",
+        "description": "presto_env.modal",
+        "isExtraImport": true,
+        "detail": "presto_env.modal",
+        "documentation": {}
+    },
+    {
+        "label": "get_modal_gpu_price_per_hour",
+        "importPath": "presto_env.modal",
+        "description": "presto_env.modal",
+        "isExtraImport": true,
+        "detail": "presto_env.modal",
+        "documentation": {}
+    },
+    {
+        "label": "get_modal_gpu_price_per_hour",
+        "importPath": "presto_env.modal",
+        "description": "presto_env.modal",
+        "isExtraImport": true,
+        "detail": "presto_env.modal",
+        "documentation": {}
+    },
+    {
+        "label": "MODAL_GPU_PER_HOUR_PRICE",
+        "importPath": "presto_env.modal",
+        "description": "presto_env.modal",
+        "isExtraImport": true,
+        "detail": "presto_env.modal",
+        "documentation": {}
+    },
+    {
+        "label": "unittest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unittest",
+        "description": "unittest",
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "PrestoEnv",
+        "importPath": "presto_env.env",
+        "description": "presto_env.env",
+        "isExtraImport": true,
+        "detail": "presto_env.env",
+        "documentation": {}
+    },
+    {
+        "label": "PrestoEnv",
+        "importPath": "presto_env.env",
+        "description": "presto_env.env",
+        "isExtraImport": true,
+        "detail": "presto_env.env",
+        "documentation": {}
+    },
+    {
+        "label": "generate_run_id",
+        "importPath": "presto_env.run",
+        "description": "presto_env.run",
+        "isExtraImport": true,
+        "detail": "presto_env.run",
+        "documentation": {}
+    },
+    {
+        "label": "generate_run_id",
+        "importPath": "presto_env.run",
+        "description": "presto_env.run",
+        "isExtraImport": true,
+        "detail": "presto_env.run",
+        "documentation": {}
+    },
+    {
+        "label": "generate_run_id",
+        "importPath": "presto_env.run",
+        "description": "presto_env.run",
+        "isExtraImport": true,
+        "detail": "presto_env.run",
+        "documentation": {}
+    },
+    {
+        "label": "patch",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
+        "label": "patch",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
+        "label": "patch",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "random_animal",
+        "importPath": "presto_env.random",
+        "description": "presto_env.random",
+        "isExtraImport": true,
+        "detail": "presto_env.random",
+        "documentation": {}
+    },
+    {
+        "label": "random_short_adjective",
+        "importPath": "presto_env.random",
+        "description": "presto_env.random",
+        "isExtraImport": true,
+        "detail": "presto_env.random",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"presto-env-py3.12\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"presto-env-py3.12\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"presto-env-py3.12\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"presto-env-py3.12\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"presto-env-py3.12\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "PrestoEnv",
+        "kind": 6,
+        "importPath": "presto_env.env",
+        "description": "presto_env.env",
+        "peekOfCode": "class PrestoEnv:\n    PRESTO_HOME = \"PRESTO_HOME\"\n    @staticmethod\n    def create_temp_folder() -> Path:\n        if PrestoEnv.PRESTO_HOME in os.environ:\n            folder_name = f\"{datetime.now().strftime('%Y%m%d-%H-%M')}_{uuid.uuid4()}\"\n            path = Path(os.environ[PrestoEnv.PRESTO_HOME]) / \"temporary\" / folder_name\n            path.mkdir(parents=True, exist_ok=True)\n            return path\n        else:",
+        "detail": "presto_env.env",
+        "documentation": {}
+    },
+    {
+        "label": "TestPrestoEnv",
+        "kind": 6,
+        "importPath": "presto_env.env_test",
+        "description": "presto_env.env_test",
+        "peekOfCode": "class TestPrestoEnv(unittest.TestCase):\n    @patch.dict(os.environ, {PrestoEnv.PRESTO_HOME: \"./test_presto_home\"})\n    def test_get_temp_folder(self):\n        temp_folder = PrestoEnv.create_temp_folder()\n        self.assertTrue(temp_folder.exists())\n        print(temp_folder)\n        self.assertTrue(str(temp_folder).startswith(\"test_presto_home/temporary/\"))\n    @patch.dict(os.environ, {PrestoEnv.PRESTO_HOME: \"./test_presto_home\"})\n    def test_get_run_folder(self):\n        run_folder = PrestoEnv.run_folder(\"project\", \"run_id\")",
+        "detail": "presto_env.env_test",
+        "documentation": {}
+    },
+    {
+        "label": "IS_MODAL_REMOTE",
+        "kind": 2,
+        "importPath": "presto_env.modal",
+        "description": "presto_env.modal",
+        "peekOfCode": "def IS_MODAL_REMOTE():\n    return os.environ.get(\"MODAL_IS_REMOTE\", \"0\") == \"1\"\nMODAL_GPU_PER_HOUR_PRICE = {\n    \"NVIDIA H100 80GB HBM3\": 4.56,\n    \"NVIDIA H100\": 4.56,\n    \"NVIDIA A100-SXM4-80GB\": 3.40,\n    \"NVIDIA A100-SXM4-40GB\": 2.78,\n    \"NVIDIA A10\": 1.10,\n    \"NVIDIA L4\": 0.80,\n    \"Tesla T4\": 0.59,",
+        "detail": "presto_env.modal",
+        "documentation": {}
+    },
+    {
+        "label": "get_modal_gpu_price_per_hour",
+        "kind": 2,
+        "importPath": "presto_env.modal",
+        "description": "presto_env.modal",
+        "peekOfCode": "def get_modal_gpu_price_per_hour() -> float | None:\n    gpu_name = None\n    gpu_count = 1\n    if torch.cuda.is_available():\n        gpu_name = torch.cuda.get_device_name()\n        gpu_count = torch.cuda.device_count()\n    if gpu_name is None:\n        return MODAL_GPU_PER_HOUR_PRICE[\"cpu\"]\n    if gpu_name in MODAL_GPU_PER_HOUR_PRICE:\n        return MODAL_GPU_PER_HOUR_PRICE[gpu_name] * gpu_count",
+        "detail": "presto_env.modal",
+        "documentation": {}
+    },
+    {
+        "label": "MODAL_GPU_PER_HOUR_PRICE",
+        "kind": 5,
+        "importPath": "presto_env.modal",
+        "description": "presto_env.modal",
+        "peekOfCode": "MODAL_GPU_PER_HOUR_PRICE = {\n    \"NVIDIA H100 80GB HBM3\": 4.56,\n    \"NVIDIA H100\": 4.56,\n    \"NVIDIA A100-SXM4-80GB\": 3.40,\n    \"NVIDIA A100-SXM4-40GB\": 2.78,\n    \"NVIDIA A10\": 1.10,\n    \"NVIDIA L4\": 0.80,\n    \"Tesla T4\": 0.59,\n    \"cpu\": 0.135,\n}",
+        "detail": "presto_env.modal",
+        "documentation": {}
+    },
+    {
+        "label": "TestModal",
+        "kind": 6,
+        "importPath": "presto_env.modal_test",
+        "description": "presto_env.modal_test",
+        "peekOfCode": "class TestModal(unittest.TestCase):\n    @patch(\"torch.cuda.is_available\", return_value=True)\n    @patch(\"torch.cuda.get_device_name\", return_value=\"NVIDIA A100-SXM4-80GB\")\n    @patch(\"torch.cuda.device_count\", return_value=2)\n    def test_get_modal_gpu_price_per_hour(\n        self, mock_is_available, mock_get_device_name, mock_device_count\n    ):\n        price = get_modal_gpu_price_per_hour()\n        self.assertEqual(price, MODAL_GPU_PER_HOUR_PRICE[\"NVIDIA A100-SXM4-80GB\"] * 2)",
+        "detail": "presto_env.modal_test",
+        "documentation": {}
+    },
+    {
+        "label": "random_three_letter_word",
+        "kind": 2,
+        "importPath": "presto_env.random",
+        "description": "presto_env.random",
+        "peekOfCode": "def random_three_letter_word():\n    return random.choice(three_letter_words)\nanimals = [\n    \"Aardvark\",\n    \"Albatross\",\n    \"Alligator\",\n    \"Alpaca\",\n    \"Ant\",\n    \"Anteater\",\n    \"Antelope\",",
+        "detail": "presto_env.random",
+        "documentation": {}
+    },
+    {
+        "label": "random_animal",
+        "kind": 2,
+        "importPath": "presto_env.random",
+        "description": "presto_env.random",
+        "peekOfCode": "def random_animal():\n    return random.choice(animals)\nadjectives = [\n    \"adaptable\",\n    \"adventurous\",\n    \"affectionate\",\n    \"agreeable\",\n    \"ambitious\",\n    \"amiable\",\n    \"amicable\",",
+        "detail": "presto_env.random",
+        "documentation": {}
+    },
+    {
+        "label": "random_adjective",
+        "kind": 2,
+        "importPath": "presto_env.random",
+        "description": "presto_env.random",
+        "peekOfCode": "def random_adjective():\n    return random.choice(adjectives)\ndef random_short_adjective():\n    return random.choice(short_adjectives)",
+        "detail": "presto_env.random",
+        "documentation": {}
+    },
+    {
+        "label": "random_short_adjective",
+        "kind": 2,
+        "importPath": "presto_env.random",
+        "description": "presto_env.random",
+        "peekOfCode": "def random_short_adjective():\n    return random.choice(short_adjectives)",
+        "detail": "presto_env.random",
+        "documentation": {}
+    },
+    {
+        "label": "three_letter_words",
+        "kind": 5,
+        "importPath": "presto_env.random",
+        "description": "presto_env.random",
+        "peekOfCode": "three_letter_words = [\n    \"AAH\",\n    \"ABS\",\n    \"ACE\",\n    \"ACK\",\n    \"ACT\",\n    \"ADD\",\n    \"ADO\",\n    \"ADS\",\n    \"AFT\",",
+        "detail": "presto_env.random",
+        "documentation": {}
+    },
+    {
+        "label": "animals",
+        "kind": 5,
+        "importPath": "presto_env.random",
+        "description": "presto_env.random",
+        "peekOfCode": "animals = [\n    \"Aardvark\",\n    \"Albatross\",\n    \"Alligator\",\n    \"Alpaca\",\n    \"Ant\",\n    \"Anteater\",\n    \"Antelope\",\n    \"Ape\",\n    \"Armadillo\",",
+        "detail": "presto_env.random",
+        "documentation": {}
+    },
+    {
+        "label": "adjectives",
+        "kind": 5,
+        "importPath": "presto_env.random",
+        "description": "presto_env.random",
+        "peekOfCode": "adjectives = [\n    \"adaptable\",\n    \"adventurous\",\n    \"affectionate\",\n    \"agreeable\",\n    \"ambitious\",\n    \"amiable\",\n    \"amicable\",\n    \"analytical\",\n    \"appreciative\",",
+        "detail": "presto_env.random",
+        "documentation": {}
+    },
+    {
+        "label": "short_adjectives",
+        "kind": 5,
+        "importPath": "presto_env.random",
+        "description": "presto_env.random",
+        "peekOfCode": "short_adjectives = [\n    \"able\",\n    \"adept\",\n    \"alert\",\n    \"apt\",\n    \"arch\",\n    \"avid\",\n    \"aware\",\n    \"basic\",\n    \"bland\",",
+        "detail": "presto_env.random",
+        "documentation": {}
+    },
+    {
+        "label": "generate_run_id",
+        "kind": 2,
+        "importPath": "presto_env.run",
+        "description": "presto_env.run",
+        "peekOfCode": "def generate_run_id():\n    return f\"{datetime.now().strftime('%Y%m%d-%H-%M')}-{random_short_adjective().lower()}-{random_animal().lower()}\"",
+        "detail": "presto_env.run",
+        "documentation": {}
+    },
+    {
+        "label": "TestRun",
+        "kind": 6,
+        "importPath": "presto_env.run_test",
+        "description": "presto_env.run_test",
+        "peekOfCode": "class TestRun(unittest.TestCase):\n    def test_generate_run_id(self):\n        run_id = generate_run_id()\n        self.assertIsInstance(run_id, str)\n        self.assertIn(\"-\", run_id)",
+        "detail": "presto_env.run_test",
+        "documentation": {}
+    },
+    {
+        "label": "TestPrestoEnv",
+        "kind": 6,
+        "importPath": "presto_env.tests",
+        "description": "presto_env.tests",
+        "peekOfCode": "class TestPrestoEnv(unittest.TestCase):\n    @patch.dict(os.environ, {PrestoEnv.PRESTO_TEMPORARY: \"/tmp\"})\n    def test_get_temp_folder(self):\n        temp_folder = PrestoEnv.create_temp_folder()\n        self.assertTrue(temp_folder.exists())\n    @patch.dict(os.environ, {PrestoEnv.PRESTO_RUNS: \"/runs\"})\n    def test_get_run_folder(self):\n        run_folder = PrestoEnv.run_folder(\"project\", \"run_id\")\n        self.assertEqual(run_folder, Path(\"/runs/project/run_id\"))\n    @patch.dict(os.environ, {PrestoEnv.PRESTO_BULK_ASSETS: \"/bulk_assets\"})",
+        "detail": "presto_env.tests",
+        "documentation": {}
+    },
+    {
+        "label": "TestRun",
+        "kind": 6,
+        "importPath": "presto_env.tests",
+        "description": "presto_env.tests",
+        "peekOfCode": "class TestRun(unittest.TestCase):\n    def test_generate_run_id(self):\n        run_id = generate_run_id()\n        self.assertIsInstance(run_id, str)\n        self.assertIn(\"-\", run_id)\nclass TestModal(unittest.TestCase):\n    @patch(\"torch.cuda.is_available\", return_value=True)\n    @patch(\"torch.cuda.get_device_name\", return_value=\"NVIDIA A100-SXM4-80GB\")\n    @patch(\"torch.cuda.device_count\", return_value=2)\n    def test_get_modal_gpu_price_per_hour(",
+        "detail": "presto_env.tests",
+        "documentation": {}
+    },
+    {
+        "label": "TestModal",
+        "kind": 6,
+        "importPath": "presto_env.tests",
+        "description": "presto_env.tests",
+        "peekOfCode": "class TestModal(unittest.TestCase):\n    @patch(\"torch.cuda.is_available\", return_value=True)\n    @patch(\"torch.cuda.get_device_name\", return_value=\"NVIDIA A100-SXM4-80GB\")\n    @patch(\"torch.cuda.device_count\", return_value=2)\n    def test_get_modal_gpu_price_per_hour(\n        self, mock_is_available, mock_get_device_name, mock_device_count\n    ):\n        price = get_modal_gpu_price_per_hour()\n        self.assertEqual(price, MODAL_GPU_PER_HOUR_PRICE[\"NVIDIA A100-SXM4-80GB\"] * 2)\nif __name__ == \"__main__\":",
+        "detail": "presto_env.tests",
+        "documentation": {}
+    }
+]

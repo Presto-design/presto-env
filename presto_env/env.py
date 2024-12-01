@@ -9,17 +9,14 @@ from presto_env.modal import IS_MODAL_REMOTE
 
 class PrestoEnv:
 
-    PRESTO_TEMPORARY = "PRESTO_TEMPORARY"
-    PRESTO_BULK_ASSETS = "PRESTO_BULK_ASSETS"
-    PRESTO_RUNS = "PRESTO_RUNS"
-    PRESTO_DATASETS = "PRESTO_DATASETS"
+    PRESTO_HOME = "PRESTO_HOME"
 
     @staticmethod
     def create_temp_folder() -> Path:
-        if PrestoEnv.PRESTO_TEMPORARY in os.environ:
+        if PrestoEnv.PRESTO_HOME in os.environ:
             folder_name = f"{datetime.now().strftime('%Y%m%d-%H-%M')}_{uuid.uuid4()}"
-            path = Path(os.environ[PrestoEnv.PRESTO_TEMPORARY]) / folder_name
-            path.mkdir()
+            path = Path(os.environ[PrestoEnv.PRESTO_HOME]) / "temporary" / folder_name
+            path.mkdir(parents=True, exist_ok=True)
             return path
         else:
             path = Path(tempfile.gettempdir())
@@ -31,23 +28,27 @@ class PrestoEnv:
             # You're running in the run folder!
             return Path("./")
         else:
-            if PrestoEnv.PRESTO_RUNS in os.environ:
-                return Path(os.environ[PrestoEnv.PRESTO_RUNS]) / project / run_id
+            if PrestoEnv.PRESTO_HOME in os.environ:
+                path = (
+                    Path(os.environ[PrestoEnv.PRESTO_HOME]) / "runs" / project / run_id
+                )
+                path.mkdir(parents=True, exist_ok=True)
+                return path
             else:
                 return Path("./runs") / project / run_id
 
     @staticmethod
     def bulk_assets_folder() -> Path:
-        if not PrestoEnv.PRESTO_BULK_ASSETS in os.environ:
+        if not PrestoEnv.PRESTO_HOME in os.environ:
             raise EnvironmentError(
-                f"Please set ${PrestoEnv.PRESTO_BULK_ASSETS} environment variable"
+                f"Please set ${PrestoEnv.PRESTO_HOME} environment variable"
             )
 
-        return Path(os.environ[PrestoEnv.PRESTO_BULK_ASSETS])
+        return Path(os.environ[PrestoEnv.PRESTO_HOME]) / "bulk_assets"
 
     @staticmethod
     def datasets_folder() -> Path:
-        if PrestoEnv.PRESTO_DATASETS in os.environ:
-            return Path(os.environ[PrestoEnv.PRESTO_DATASETS])
+        if PrestoEnv.PRESTO_HOME in os.environ:
+            return Path(os.environ[PrestoEnv.PRESTO_HOME]) / "datasets"
         else:
             return Path("./datasets")
