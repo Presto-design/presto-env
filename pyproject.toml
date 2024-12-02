@@ -1,9 +1,10 @@
 [tool.poetry]
 name = "presto-env"
 version = "0.1.0"
-description = ""
+description = "A Python environment management tool for Presto projects"
 authors = ["David Mack <davidhughhenrymack@gmail.com>"]
 readme = "README.md"
+homepage = "https://prestodesign.ai"
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -12,9 +13,6 @@ numpy = "^1.17"
 pytest = "^8.3.3"
 flake8 = "^7.1.1"
 mypy = "^1.13.0"
-
-[tool.poetry.scripts]
-test = "pytest"
 
 [build-system]
 requires = ["poetry-core"]
